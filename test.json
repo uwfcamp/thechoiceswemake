@@ -1,0 +1,49 @@
+{
+	"game" : {
+		"scenarios" : ["scenario1", "scenario2", "scenario3"]
+	},
+
+	"scenario1" : {
+		"image" : "/static/Bomb_armed.gif",
+		"content" : "There is a bomb in front of you",
+		"choices" : ["choice1_scenario1", "choice2_scenario1"]
+	},
+
+	"choice1_scenario1" : {
+		"content" : "Cut the red wire.",
+		"destinationScenario" : "scenario2"
+	},
+
+	"choice2_scenario1" : {
+		"content" : "Cut the blue wire.",
+		"destinationScenario" : "scenario3"
+	},
+
+	"scenario2" : {
+		"image" : "/static/Tombstone.gif",
+		"content" : "You died",
+		"choices" : []
+	},
+
+	"scenario3" : {
+		"image" : "/static/Cliff.gif",
+		"content" : "The bomb is disarmed",
+		"choices" : ["choice1_scenario3", "choice2_scenario3"]
+	},
+
+	"choice1_scenario3" : {
+		"content" : "Jump off a cliff.",
+		"destinationScenario" : "scenario2"
+	},
+
+	"choice2_scenario3" : {
+		"content" : "Go home.",
+		"destinationScenario" : "scenario4"
+	},
+
+	"scenario4" : {
+		"image" : "",
+		"content" : "You live to fight another day",
+		"choices" : []
+	}
+}

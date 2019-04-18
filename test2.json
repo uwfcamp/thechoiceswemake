@@ -1,0 +1,107 @@
+{
+    "game" : {
+        "scenarios" : ["scenario1", "scenario2", "scenario3", "scenario4", "scenario5","scenario6", "scenario7", "scenario8", "scenario9"]
+    },
+
+    "scenario1": {
+	"image" : "/static/Chained.gif",
+        "content" : "You wake up with a ball and chain around your foot.  All around you is stone going up to a stone ceiling.  The room then slowly starts to flood from rather large gaps in the floor",
+        "choices" : ["choice1", "choice2"]
+    },
+
+    "choice1" : {
+
+        "content" : "Break the chain and swim out",
+        "destinationScenario" : "scenario2"
+    },
+
+    "choice2" : {
+
+        "content" : "Call for help",
+        "destinationScenario" : "scenario3"
+    },
+
+    "scenario2": {
+	"image" : "/static/Bay.gif",
+        "content" : "It appears the connecting bolts of the ball to the chain was rather weak, enabling you to free yourself from the ball, but not the chain.  Regardless you swim through the gap and narrow tunnels and you break the surface of the water.  You look around and it becomes apparent you are out in the bay of a great castle, it appears that a storm is comming",
+        "choices" : ["choice3", "choice4"]
+    },
+
+    "choice3" : {
+
+        "content" : "Swim away from the castle, out to sea",
+        "destinationScenario" : "scenario4"
+    },
+
+    "choice4" : {
+
+        "content" : "Go towards the castle and seek shelter",
+        "destinationScenario" : "scenario5"
+    },
+
+    "scenario3": {
+	"image" : "/static/Found.gif",
+        "content" : "Your calls for help are answered as a young knight on patrol hears you and frees you.  The young knight asks you how you got down here",
+        "choices" : ["choice5", "choice6"]
+    },
+
+    "choice5" : {
+
+        "content" : "I guess we drank too much.",
+        "destinationScenario" : "scenario6"
+    },
+
+    "choice6" : {
+
+        "content" : "I....I don't know...",
+        "destinationScenario" : "scenario7"
+    },
+
+    "scenario4": {
+	"image" : "/static/Storm.gif",
+        "content" : "As you were traveling out to sea it appears as though the storm hit and forced you under, your exhaustion piled on with the wieght of the chain and you drowned.   -DIVERTIDO MORI-",
+        "choices" : []
+    },
+
+    "scenario5": {
+	"image" : "/static/Gate.gif",
+        "content" : "You manage to make it to the beach of the upon which the castle overlooks,  with the storm comming ever closer you go back towards the castle, your chaing draging along.  As you knock on the door to the castle you see a faint movement out of the corner of you eye.",
+        "choices" : ["choice7", "choice8"]
+    },
+
+    "choice7" : {
+
+        "content" : "Check to see what is over there",
+        "destinationScenario" : "scenario8"
+    },
+
+    "choice8" : {
+
+        "content" : "Wait and see if you can get in",
+        "destinationScenario" : "scenario9"
+    },
+
+    "scenario6": {
+	"image" : "",
+        "content" : "The young knight lets out a playful laugh, he says you were lucky he had heard as the patrol does not come by very ofter here.  The knight guides you out of the castle and you two talk, your voices echo off the walls of the empty castle as you both rise from the prison to the front gate.  Once your outside you decide to thank the knight, but to your surpise he is no where to be found.  The castle doors closed behind you with you hearing a sound and you decide it is best if you leave, the laugh of the young knight still ringing in your head.     -GHOST'S LAUGH-",
+        "choices" : []
+    },
+
+    "scenario7": {
+	"image" : "/static/Distance.gif",
+        "content" : "The young knight looks upon you with worry, he explains that the master of the castle is a dangerous man who is not to be trifled with.  He guides you as far as his patrol will let him and gives you the directions to escape the castle.  You successfully manage to make your way to the door and just as you are about to leave you feel eyes on the back of your head, you turn but no one is behind you.  You quickly make your way out of the castle and turn around ot face it one last time before you leave.  And just as you turn away; just for amoment you see a strange figure on the highest spire of the castle.   -MYSTERIOUS FIGURE-",
+        "choices" : []
+    },
+
+    "scenario8": {
+	"image" : "",
+        "content" : "You see a shadowy figure moving around and you decide to follow it, you follow the shadow to the garden and you lose track of it.  You decide to go back to the door, when your legs give way under your own wieght.  As you are lying on the ground you feel cold as a warm sea of red comes from you.  Pristine black boots enter you field of view as you lie there...      -DIVERTIDO MORIR-",
+        "choices" : []
+    },
+
+    "scenario9": {
+	"image" : "",
+        "content" : "As you wait outside a respone, your wet clothes feel cold and the storm grows closer.  Eventually there is a response, a young woman in a pearly white top, blood red vest and midnight black trousers and boots opens the door.  She welcomes you in from the cold and says you are free to stay the night.  As you walk towards your room you see a painting of group of knights bantering with young knight seeming to lead the joking, and just before you close the room door you notice the laughing young knight has a single tear in his eye...     -PAINTING'S REGRET-  ",
+        "choices" : []
+    }
+}

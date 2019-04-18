@@ -1,0 +1,5 @@
+{
+	"games" : [{"test.json" : "/game/?gamename=test.json&scenarioname=scenario1"},
+		{"test2.json" : "/game/?gamename=test2.json&scenarioname=scenario1"}]
+	
+}
